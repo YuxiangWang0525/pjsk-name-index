@@ -1,0 +1,8 @@
+{
+  "name": "pjsk-name-index",
+  "version": "1.0.0",
+  "description": "A Chinese and English name index library for Project Sekai",
+  "main": "index.js",
+  "author": "YuxiangWang_0525",
+  "license": "MIT"
+}
