@@ -1,3 +1,9 @@
+/*
+ * pjsk-name-index v1.3.4
+ * 2022-present Moedigital,YuxiangWang_0525 and pjsk-name-index contributors
+ * https://github.com/YuxiangWang0525/pjsk-name-index
+ * Under MIT License.
+ */
 const full_name = ['Hatsune Miku','Kagamine Rin','Kagamine Len','Megurine Luka','MEIKO','KAITO','Hoshino Ichika','Tenma Saki','Mochizuki Honami','Hinomori Shiho','Hanasato Minori','Kiritani Haruka','Momoi Airi','Hinomori Shizuku','Azusawa Kohane','Shiraishi An','Shinonome Akito','Aoyagi Toya','Tenma Tsukasa','Otori Emu','Kusanagi Nene','Kamishiro Rui','Yoisaki Kanade','Asahina Mafuyu','Shinonome Ena','Akiyama Mizuki'];
 const full_name_cn = ['初音未来','镜音铃','镜音连','巡音流歌','MEIKO','KAITO','星乃一歌','天马咲希','望月穗波','日野森志步','花里实乃理','桐谷遥','桃井爱莉','日野森雫','小豆泽心羽','白石杏','东云彰人','青柳冬弥','天马司','凤笑梦','草薙宁宁','神代类','宵崎奏','朝比奈真冬','东云绘名','晓山瑞希'];
 
@@ -31,10 +37,10 @@ const joke_name_cn = {
     'Otori Emu':['汪大吼'],
     'Kusanagi Nene':[],
     'Kamishiro Rui':[],
-    'Yoisaki Kanade':['小气走'],
-    'Asahina Mafuyu':['马福友'],
-    'Shinonome Ena':['董慧敏'],
-    'Akiyama Mizuki':[]
+    'Yoisaki Kanade':['小气走','K'],
+    'Asahina Mafuyu':['马福友','Yuki','雪'],
+    'Shinonome Ena':['董慧敏','Enanan'],
+    'Akiyama Mizuki':['Amia']
 };
 // 生成索引
 let character_index = {};

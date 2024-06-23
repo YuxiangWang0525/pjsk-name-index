@@ -21,6 +21,12 @@ yarn add pjsk-name-index
 import { full_name } from 'pjsk-name-index';
 </script>
 ```
+### 原生JavaScript引入
+在原生JavaScript中，使用`<script>`标签引入`pjsk-name-index`库：
+``` html
+<script src="https://unpkg.com/pjsk-name-index/dist/pjskni.min.js"></script>
+```
+
 ## 索引
 
 
@@ -50,6 +56,7 @@ console.log(sekai_index("knd","individual").full_name_cn)
 console.log(sekai_index("萌萌飞跃少女团",'team').full_name)
 // 输出结果: > MORE MORE JUMP!
 ```
+请注意,原生引入时,您需要使用 pjskni.sekai_index() 来调用sekai_index方法
 ### 手动索引
 
 #### 常量名表
@@ -79,5 +86,7 @@ console.log(full_name_cn[0])
 
 // 输出结果: > 初音未来
 ```
-
+## 版权及协议声明
+本项目中的所有角色名,团队名版权归属Colorful Palette、SEGA、Crypton Future Media等公司所有,如有侵权请联系
+其余逻辑代码均在MIT协议下开源,您可以自由使用。
 协议:MIT License
