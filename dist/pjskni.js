@@ -1,5 +1,5 @@
 /*
- * pjsk-name-index v1.3.4
+ * pjsk-name-index v1.3.5
  * 2022-present Moedigital,YuxiangWang_0525 and pjsk-name-index contributors
  * https://github.com/YuxiangWang0525/pjsk-name-index
  * Under MIT License.
@@ -21,12 +21,12 @@ const joke_name_cn = {
     'Megurine Luka':[],
     'MEIKO':[],
     'KAITO':[],
-    'Hoshino Ichika':[],
+    'Hoshino Ichika':['小一','一酱'],
     'Tenma Saki':['马晓希'],
     'Mochizuki Honami':['穗波妈妈'],
-    'Hinomori Shiho':[],
+    'Hinomori Shiho':['吸酱'],
     'Hanasato Minori':[],
-    'Kiritani Haruka':[],
+    'Kiritani Haruka':['小遥'],
     'Momoi Airi':[],
     'Hinomori Shizuku':[],
     'Azusawa Kohane':[],
